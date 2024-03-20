@@ -1,0 +1,39 @@
+*/ {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.img {
+    max-width: 100%;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.promo {
+background: url(./img/fond.png) no-repeat  center;
+min-height: 900px;
+padding: 25px 0;
+color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    margin-left: 150px;
+}
+
+tour_elem h3 {
+    align-items: center;
+}
